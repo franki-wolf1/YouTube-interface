@@ -1,0 +1,50 @@
+.categories-scroll {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.categories-scroll ion-chip {
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+
+.shorts-scroll {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.short-card {
+  flex: 0 0 auto;
+  width: 150px;
+  margin-right: 10px;
+}
+
+ion-content {
+  --background: #0f0f0f;
+}
+
+ion-card {
+  --background: #1f1f1f;
+  --color: #ffffff;
+}
+
+ion-card-subtitle {
+  --color: #aaaaaa;
+}
+
+ion-toolbar {
+  --background: #0f0f0f;
+  --color: #ffffff;
+}
+
+ion-searchbar {
+  --background: #121212;
+  --color: #ffffff;
+  --placeholder-color: #aaaaaa;
+}
+
+ion-button {
+  --color: #ffffff;
+}
